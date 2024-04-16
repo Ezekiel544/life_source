@@ -1,0 +1,436 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+.container_1{
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+    flex-wrap: wrap;
+    display: flex;
+   /* border: 2px solid red; */
+    gap: 5px;
+    height: fit-content;
+    margin: 20px;
+     text-align: center;
+}
+.general_div{
+   justify-content: center;
+   display: flex;
+}
+.my_one{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+span{
+    color: gray;
+    font-size: 13px; 
+}
+.my_nav a{
+   font-size: 19px;
+}
+
+.btn-group button{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.dropdown-menu li{
+     font-size: 13px;
+}
+.life_specials{
+    height:200px;
+    border-bottom-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+    background-color: #50C269;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.organic_pro img{
+    width: 80%;
+   
+}
+
+.pine_img img{
+    width: 60%;
+}
+
+.pine_img button{
+    width: 40%;
+}
+.sale_button button{
+   padding: 19px 45px;
+   font-size: 17px;
+   font-weight: 500;
+   border-radius: 8px;
+   border: none;
+   background-color: #69727D;
+   color: white;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.third_div{
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.third_images{
+    width: 44%;
+}
+.third_images img{
+    width: 100%;
+    height: 100%;
+}
+
+.carousel-item{
+    /* border: 2px solid red; */
+    height: 100vh;
+  
+    margin-left: auto;
+    scroll-margin-right: auto;
+   /* padding-left: 20px;
+   padding-right: 20px; */
+}
+.carousel-item img{
+    width: 100%;
+    height: 100%;
+    /* border: 1px solid blue; */
+}
+
+.green_backg{
+    height: 200px;
+    background-color: #50C269;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+ 
+}
+.green_backg p{
+    font-size: 20px;
+}
+.green_backg button{
+    background-color: #FC7000;
+    border-radius: 8px;
+    padding: 15px 40px;
+    border: none;
+    color: #ffffff;
+    font-size: 23px; 
+}
+footer{
+    /* height: 350px; */
+    background-color: #000000;
+}
+.my_footer{
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /* border: 2px solid blue; */
+    height: fit-content;
+  
+ 
+}
+.child_d{
+    margin-top: 50px;
+    /* border: 2px solid red; */
+    width: 27%;
+    flex-direction: column;
+    gap: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 20px;
+}
+.child_d img{
+    width: 50%;
+    
+}
+.my_child_d{
+    margin-top: 50px;
+    /* border: 2px solid red; */
+    width: 38%;
+    flex-direction: column;
+    gap: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 30px;
+}
+.child_d p{
+    font-size: 15px;
+}
+.child_d b{
+    font-size: 15px;
+}
+span{
+    font-size: 14px;
+}
+
+/* Desktop Devices Large, Xlarge, XXLarge */
+/* Large */
+@media(min-width:992px){
+    .col-lg-1{
+        width: 8.33%;
+   }
+   .col-lg-2{
+    width: 16.66%;
+    }
+    .col-lg-3{
+        width: 25%;
+    }
+    .col-lg-4{
+        width: 33.33%;
+    }
+    .col-lg-5{
+        width: 41.66%;
+    }
+    .col-lg-6{
+        width: 50%;
+    }
+    .col-lg-7{
+        width: 58.33%;
+    }
+    .col-lg-8{
+        width: 66.66%;
+    }
+    .col-lg-9{
+        width: 75%;
+    }
+    .col-lg-10{
+        width: 83.33%;
+    }
+    .col-lg-11{
+        width: 91.66%;
+    }
+    .col-lg-12{
+        width: 100%;
+    }
+}
+/* Tablet Devices - Small and Medium */
+/* Medium Devices */
+@media(max-width:991px){
+    .btn-group button{
+        font-size: 17px;
+        font-weight: 500;
+    }
+    .life_specials{
+        font-size: 40px;
+    }
+    .organic_pro img{
+        width: 90%;
+    }
+    .pine_img img{
+        width: 75%;
+    }
+    .sale_button button{
+        padding: 15px 27px;
+        font-size: 15px;
+    }
+    .green_backg p{
+        font-size: 18px;
+    }
+    .green_backg button{
+        padding: 10px 27px;
+        font-size: 20px; 
+    }
+    .col-md-1{
+        width: 8.33%;
+   }
+   .col-md-2{
+    width: 16.66%;
+    }
+    .col-md-3{
+        width: 25%;
+    }
+    .col-md-4{
+        width: 33.33%;
+    }
+    .col-md-5{
+        width: 41.66%;
+    }
+    .col-md-6{
+        width: 50%;
+    }
+    .col-md-7{
+        width: 58.33%;
+    }
+    .col-md-8{
+        width: 66.66%;
+    }
+    .col-md-9{
+        width: 75%;
+    }
+    .col-md-10{
+        width: 83.33%;
+    }
+    .col-md-11{
+        width: 91.66%;
+    }
+    .col-md-12{
+        width: 100%;
+    }
+}
+/* Small Devices */
+@media(max-width:767px){
+    .container_1{
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+       
+    }
+    .btn-group button{
+        font-size: 15px;
+        font-weight: 500;
+       
+    }
+    .dropdown-menu li{
+        font-size: 11px;
+   }
+   .life_specials{
+    font-size: 30px;
+    }
+    .pine_img img{
+        width: 80%;
+    }
+    .sale_button button{
+        padding: 13px 25px;
+        font-size: 14px;
+    }
+    .child_d {
+        width: 100%;
+    }
+    .child_d img{
+        width: 40%;
+        
+    }
+    .my_child_d{
+        width: 100%;
+    }
+    .green_backg p{
+        font-size: 17px;
+    }
+    .green_backg button{
+        padding: 10px 25px;
+        font-size: 17px; 
+    }
+    .col-sm-1{
+        width: 8.33%;
+   }
+   .col-sm-2{
+    width: 16.66%;
+    }
+    .col-sm-3{
+        width: 25%;
+    }
+    .col-sm-4{
+        width: 33.33%;
+    }
+    .col-sm-5{
+        width: 41.66%;
+    }
+    .col-sm-6{
+        width: 50%;
+    }
+    .col-sm-7{
+        width: 58.33%;
+    }
+    .col-sm-8{
+        width: 66.66%;
+    }
+    .col-sm-9{
+        width: 75%;
+    }
+    .col-sm-10{
+        width: 83.33%;
+    }
+    .col-sm-11{
+        width: 91.66%;
+    }
+    .col-sm-12{
+        width: 100%;
+    }
+}
+/* Mobile Devices - Extra Small */
+/* Extra Small Devices */
+@media(max-width:575px){
+    .btn-group button{
+     /* border: 1px solid blue; */
+        width: 50%;
+    }
+    .btn_g{
+        width: 48%;
+    }
+    .life_specials{
+        font-size: 20px;
+        height: 150px;
+    }
+    .div_img{
+        width: 50%;
+        /* border: 2px solid red; */
+    }
+    .div_img img{
+        width: 100%;
+    }
+    .my_one{
+        font-size: 15px;
+    }
+    .sale_button button{
+        padding: 11px 23px;
+        font-size: 12px;
+    }
+    .third_images{
+        width: 80%;
+    }
+    .green_backg p{
+        font-size: 14px;
+    }
+    .green_backg button{
+        padding: 10px 22px;
+        font-size: 14px; 
+    }
+   .col-1{
+        width: 8.33%;
+   }
+   .col-2{
+    width: 16.66%;
+    }
+    .col-3{
+        width: 25%;
+    }
+    .col-4{
+        width: 33.33%;
+    }
+    .col-5{
+        width: 41.66%;
+    }
+    .col-6{
+        width: 50%;
+    }
+    .col-7{
+        width: 58.33%;
+    }
+    .col-8{
+        width: 66.66%;
+    }
+    .col-9{
+        width: 75%;
+    }
+    .col-10{
+        width: 83.33%;
+    }
+    .col-11{
+        width: 91.66%;
+    }
+    .col-12{
+        width: 100%;
+    }
+}
